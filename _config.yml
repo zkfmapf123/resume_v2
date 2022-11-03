@@ -1,0 +1,175 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 이동규
+title: NodeJS 백엔드 엔지니어
+email: zkfmapf999@gmail.com
+# email_title: Email (Email title override)
+phone: 010-9341-1762
+# phone_title: Phone (Phone title override)
+website: https://github.com/zkfmapf123
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: jekyllrb
+# github_username: https://github.com/zkfmapf123
+# stackoverflow_username: '00000001'
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+#   - title: Github
+#     icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#     url: https://github.com/zkfmapf123
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Node + Express + Typescript / Golang, GCP 기반의 1년차 백엔드 개발자로, Serverless 형태의 개발을 진행하였습니다.
+  현재는 <mark>콜라보그라운드</mark> 에서 백엔드 개발자로 업무를 진행하고 있으며, Node를 활용한 회사 내부 <mark>CLI Tool</mark>
+  관리와, BigQuery를 활용한 KPI 추출, GCP 기반 Firebase Function을 활용한 Serverless 개발을 주요업무로 하고 있습니다.
+  좀더 나은 개발환경과 문화를 위해서 항상 공부하며, 좋은 Tool이나 라이브러리가 존재한다면, 회사 내 개발 구성원들과 의논후 업무에 적용하고 있습니다.
+  그로 인해서 모두가 같이 성장할 수 있는것이 저의 목표입니다. 그로인해 완성도 높은 작은 <mark>Code</mark> 하나하나가 모여 완성도 높은 <mark>Product</mark>
+  가 될 수 있도록 항상 노력하고 있습니다.
+
+content:
+  - title: Tech # Title for the section
+    layout: text # Type of content section (list/text)
+    content: <div style="display:flex; flex-direction:column; flex:1;">
+      <div style="display:flex; flex-direciton:row; flex:1; justify-contnet:center;">
+      <div id="left" style="flex:1;"><h4>Language</h4></div>
+      <div id="description" style="display:flex; flex-direciton:row; flex:2; justify-content:left;" >
+      <ul>
+      <li><mark>Typescript</mark>, <mark>Golang</mark>, Java, Ruby, Dart</li>
+      <li><mark>Node(Express)</mark>, Nest, <mark>Gin</mark>, Ruby on Rails</li>
+      <li>RabbitMQ</li>
+      <li><mark>FXTS(FP)</mark>, Flutter, React, React-Native</li>
+      <li>Visula Studio Code, Visual Studio</li>
+      </ul>
+      </div>
+      </div>
+      <div style="display:flex; flex-direciton:row; flex:1; justify-contnet:center;">
+      <div id="left" style="flex:1;"><h4>Devops & DB</h4></div>
+      <div id="description" style="display:flex; flex-direciton:row; flex:2; justify-content:left;" >
+      <ul>
+      <li><mark>MYSQL</mark>, RealTime Database, Redis, <mark>BigQuery</mark></li>
+      <li>GCP, <mark>Firebase Function</mark>, GCP Pub/Sub</li>
+      <li>AWS EC2, <mark>AWS Lamda</mark>, Elastic Beanstalk</li>
+      <li>Docker, Github Action</li>
+      </ul>
+      </div>
+      </div>
+  - title: Project # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Google Map (ing...) (2022.11 ~ 현재)
+        quote: >
+          글로벌 서비스의 유입을 증대시키기 위한 프로젝트
+        description: | # this will include new lines to allow paragraphs
+          - 기존 Legacy 코드 Refactoring 및 문서화 작업
+          - <mark>Functional Programming</mark> 도입
+          - <mark>Test Case</mark> 작성 및 Test Coverage, Test 자동화를 통한 에러 발생 시 슬랙알림
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: 예약금 프로젝트 (2022.5 ~ 2022.11)
+        quote: >
+          회사 내부 프로젝트
+        description: | # this will include new lines to allow paragraphs
+          - 프로젝트 모델 설계 및 API 설계 진행
+          - Firebase Function 기반의 Serverless 구조 형태로 개발 (Typescript)
+          - TDD 도입으로 인한 Test Case 작성
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: KPI 추출작업 (2021.11 ~ 2022.2)
+        quote: >
+          회사 운영 및 마케팅 흐름 파악을 위한 KPI 추출
+        description: | # this will include new lines to allow paragraphs
+          - RTDB, Cloud Storeage, BigQuery를 활용한 Stream Parsing 방식 활용
+          - Sales Funnel, 월별 & 주별 구매자 목록, 마케팅 그룹별 활성 지표 추출
+          - Node Cli + Sheet API를 활용한 Sheet 자동화
+          - VM + Docker + Cron을 활용한 KPI 시스템 자동화
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Colavo Ground
+        sub_title: Backend Developer
+        caption: 2021.11 ~ current...
+        link: https://www.colavo.kr/
+        quote: >
+          작은 뷰티샵을 위한 모바일CRM
+        description: | # this will include new lines to allow paragraphs
+          - 회사 내부 프로젝트 개발 및 유지보수
+          - KPI 추출 및 Data Engineering
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: 경동대학교
+        sub_title: 컴퓨터 공학과 (평균학점 4.2 졸업)
+        caption: 2014 ~ 2021
+        description: | # this will include new lines to allow paragraphs
+          경찰행정학과 입학 후 컴퓨터 공학과로 전과
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  [
+    'Gemfile',
+    'Gemfile.lock',
+    'node_modules',
+    'vendor/bundle/',
+    'vendor/cache/',
+    'vendor/gems/',
+    'vendor/ruby/',
+    'lib/',
+    'scripts/',
+    'docker-compose.yml',
+  ]
