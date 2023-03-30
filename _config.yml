@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 이동규
-title: NodeJS 백엔드 엔지니어
+title: NodeJS 백엔드 엔지니어, Data Engineer
 email: zkfmapf999@gmail.com
 # email_title: Email (Email title override)
 phone: 010-9341-1762
@@ -52,9 +52,9 @@ darkmode: true
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Node + Express + Typescript / Golang, GCP 기반의 1년차 백엔드 개발자로, Serverless 형태의 개발을 진행하였습니다.
-  현재는 <mark>콜라보그라운드</mark> 에서 백엔드 개발자로 업무를 진행하고 있으며, Node를 활용한 회사 내부 <mark>CLI Tool</mark>
-  관리와, BigQuery를 활용한 KPI 추출, GCP 기반 Firebase Function을 활용한 Serverless 개발을 주요업무로 하고 있습니다.
+  Node + Express + Typescript / Golang, GCP 기반의 1년차 백엔드 개발자로, Serverless 형태의 개발을 진행하고 있습니다.
+  현재는 <mark>콜라보그라운드</mark> 에서 백엔드 개발자로 업무를 진행하고 있으며, NodeJS를 활용한 회사 내부 <mark>CLI Tool</mark>
+  관리와, BigQuery를 활용한 KPI 추출, GCP 기반 Cloud Function을 활용한 Serverless 개발을 주요업무로 하고 있습니다.
   좀더 나은 개발환경과 문화를 위해서 항상 공부하며, 좋은 Tool이나 라이브러리가 존재한다면, 회사 내 개발 구성원들과 의논후 업무에 적용하고 있습니다.
   그로 인해서 모두가 같이 성장할 수 있는것이 저의 목표입니다. 그로인해 완성도 높은 작은 <mark>Code</mark> 하나하나가 모여 완성도 높은 <mark>Product</mark>
   가 될 수 있도록 항상 노력하고 있습니다.
@@ -67,10 +67,10 @@ content:
       <div id="left" style="flex:1;"><h4>Language</h4></div>
       <div id="description" style="display:flex; flex-direciton:row; flex:2; justify-content:left;" >
       <ul>
-      <li><mark>Typescript</mark>, <mark>Golang</mark>, Java, Ruby, Dart</li>
+      <li><mark>Typescript</mark>, <mark>Golang</mark>, Java, Ruby</li>
       <li><mark>Node(Express)</mark>, Nest, <mark>Gin</mark>, Ruby on Rails</li>
-      <li>RabbitMQ</li>
-      <li><mark>FXTS(FP)</mark>, Flutter, React, React-Native</li>
+      <li>RabbitMQ, Redis Pub/sub</li>
+      <li>Flutter, React, React-Native</li>
       <li>Visula Studio Code, Visual Studio</li>
       </ul>
       </div>
@@ -80,9 +80,9 @@ content:
       <div id="description" style="display:flex; flex-direciton:row; flex:2; justify-content:left;" >
       <ul>
       <li><mark>MYSQL</mark>, RealTime Database, Redis, <mark>BigQuery</mark></li>
-      <li>GCP, <mark>Firebase Function</mark>, GCP Pub/Sub</li>
-      <li>AWS EC2, <mark>AWS Lamda</mark>, Elastic Beanstalk</li>
-      <li>Docker, Github Action</li>
+      <li>GCP, <mark>Cloud Function</mark>, GCP Pub/Sub</li>
+      <li>AWS, EC2, DynamoDB,Aurora DB,Lambda, ECS, EKS</li>
+      <li>Docker, Jenkins, Github Action</li>
       </ul>
       </div>
       </div>
@@ -93,9 +93,41 @@ content:
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
-        title: Google Map (ing...) (2022.11 ~ 현재)
+        title: Google Maps Booking (구글맵 예약 개발)
         quote: >
           글로벌 서비스의 유입을 증대시키기 위한 프로젝트
+        description: | # this will include new lines to allow paragraphs
+          - Node + Express + Cloud Function 개발
+          - Rwg Internal 통신을 위한 tRPC 구조 형태로 개발
+          - VM + Docker를 활용한 Rwg Feed 자동 업데이트
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: 결제 모듈 변경 (Toss Payment)
+        quote: >
+          결제 모듈 변경
+        description: | # this will include new lines to allow paragraphs
+          - 결제 관련 DB 설계 (RealTime Database)
+          - 이용권 결제, 카드 등록, 결제 수정, 결제 취소, 결제 조회 기능 개발
+          - 구독형 시스템으로 인한 재결제 기능 개발
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: 재방문, 방문직후 매니저톡 개발
+        quote: >
+          뷰티업종 특성 상, 재방문과 같은 알림서비스 개발
+        description: | # this will include new lines to allow paragraphs
+          - Cloud Function + Trigger + Scheduler를 활용한 설계 및 개발
+          - GCP Pubsub을 활용한 대규모 발송 처리
+      - layout: left
+        border:
+          weak # Value of `weak` will display a weak border below this item. # Any
+          # other value (or no value) means no border will be displayed
+        title: Data Pipeline 구축 및 EventLog 데이터 수집
+        quote: >
+          파이프라인 구축과 데이터 로깅 구축
         description: | # this will include new lines to allow paragraphs
           - 기존 Legacy 코드 Refactoring 및 문서화 작업
           - <mark>Functional Programming</mark> 도입
@@ -104,25 +136,27 @@ content:
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
-        title: 예약금 프로젝트 (2022.5 ~ 2022.11)
+        title: 예약금 프로젝트
         quote: >
           회사 내부 프로젝트
         description: | # this will include new lines to allow paragraphs
           - 프로젝트 모델 설계 및 API 설계 진행
-          - Firebase Function 기반의 Serverless 구조 형태로 개발 (Typescript)
+          - Cloud Function 기반의 Serverless 구조 형태로 개발 (Typescript)
+          - Scheduler, DB Trigger를 활용하여 개발
+          - Cloud Pubsub을 활용하여 대규모 발송 및 메시징 시스템 개발
           - TDD 도입으로 인한 Test Case 작성
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
-        title: KPI 추출작업 (2021.11 ~ 2022.2)
+        title: KPI 추출작업
         quote: >
           회사 운영 및 마케팅 흐름 파악을 위한 KPI 추출
         description: | # this will include new lines to allow paragraphs
-          - RTDB, Cloud Storeage, BigQuery를 활용한 Stream Parsing 방식 활용
-          - Sales Funnel, 월별 & 주별 구매자 목록, 마케팅 그룹별 활성 지표 추출
+          - RTDB, Cloud Storage, BigQuery를 활용한 Stream Parsing 방식 활용
+          - Sales Funnel, 월별 & 주별 구매자 목록, 마케팅 그룹별 활성 지표 등의 KPI 추출
           - Node Cli + Sheet API를 활용한 Sheet 자동화
-          - VM + Docker + Cron을 활용한 KPI 시스템 자동화
+          - VM + Github Action + Bash Script + Docker를 활용하여 CI/CD 구성
   - title: Experience
     layout: list
     content:
@@ -162,14 +196,14 @@ plugins:
 
 exclude:
   [
-    'Gemfile',
-    'Gemfile.lock',
-    'node_modules',
-    'vendor/bundle/',
-    'vendor/cache/',
-    'vendor/gems/',
-    'vendor/ruby/',
-    'lib/',
-    'scripts/',
-    'docker-compose.yml',
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
   ]
