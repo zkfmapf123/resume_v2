@@ -129,9 +129,8 @@ content:
         quote: >
           파이프라인 구축과 데이터 로깅 구축
         description: | # this will include new lines to allow paragraphs
-          - 기존 Legacy 코드 Refactoring 및 문서화 작업
-          - <mark>Functional Programming</mark> 도입
-          - <mark>Test Case</mark> 작성 및 Test Coverage, Test 자동화를 통한 에러 발생 시 슬랙알림
+          - GCP DataFlow + Pubsub을 활용한 실시간 데이터 수집 방식으로 리팩토링
+          - 이벤트 로그 스키마 설계 및 데이터 적재
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
