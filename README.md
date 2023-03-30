@@ -1,13 +1,5 @@
-# Resume
+# Resume V2
 
-## Info
+## Link
 
-## Backend Engineer
-
-## Summary
-
-## Tech
-
-## Experience
-
-## Education
+- <a href="https://zkfmapf123.github.io/resume_v2/">Hello world</a>
