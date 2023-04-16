@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 이동규
-title: NodeJS 백엔드 엔지니어, Data Engineer
+title: Backend Devloper & Devops Engineer
 email: zkfmapf999@gmail.com
 # email_title: Email (Email title override)
 phone: 010-9341-1762
@@ -16,7 +16,7 @@ website: https://github.com/zkfmapf123
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
@@ -52,12 +52,20 @@ darkmode: true
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Node + Express + Typescript / Golang, GCP 기반의 1년차 백엔드 개발자로, Serverless 형태의 개발을 진행하고 있습니다.
-  현재는 <mark>콜라보그라운드</mark> 에서 백엔드 개발자로 업무를 진행하고 있으며, NodeJS를 활용한 회사 내부 <mark>CLI Tool</mark>
-  관리와, BigQuery를 활용한 KPI 추출, GCP 기반 Cloud Function을 활용한 Serverless 개발을 주요업무로 하고 있습니다.
-  좀더 나은 개발환경과 문화를 위해서 항상 공부하며, 좋은 Tool이나 라이브러리가 존재한다면, 회사 내 개발 구성원들과 의논후 업무에 적용하고 있습니다.
-  그로 인해서 모두가 같이 성장할 수 있는것이 저의 목표입니다. 그로인해 완성도 높은 작은 <mark>Code</mark> 하나하나가 모여 완성도 높은 <mark>Product</mark>
-  가 될 수 있도록 항상 노력하고 있습니다.
+  1년차 개발자로서 CRM SASS 플랫폼에서 개발/배포/운영 경험이 있습니다
+  주로 Node, Express, Typescript를 사용하여 Severless 기반의 개발을 진행하고 있습니다.
+
+  <p><mark>혹자는, 어떠한 일이든 엉덩이 무거운 사람이 이긴다라고 하였습니다.</mark></p>
+  그만큼 많은 시간을 투자하고, 노력한다는 뜻일 겁니다. 저 또한 그러기 위해 많은 시간을 고민하고 투자합니다.
+  하지만 효율적이지 않은 리소스낭비 보다는 더 좋은 방법과 Solution들을 찾아서 오래 앉아 있는 개발자가 되도록 노력하고 있습니다.
+
+  <p><mark>의사소통은 문서화입니다.</mark></p>
+  여러사람의 의사소통은 즐거운 행위 입니다. 하지만 그 의사소통이 길어진다면 좋은 의사소통이 아니라고 생각합니다.
+  시간 자체도 리소스이기 때문에, 문서자체를 정형화 하여 서로 공유한 후 그 부분에 대해서 정확한 토론이 이어져야 한다고 생각합니다.
+
+  <p><mark>탐구하는 개발자입니다.</mark></p>
+  개발에는 여러 패턴과 정형화된 프로그래밍 기술이 존재합니다. 그러한 패턴을 익히고 좀더 효율적인 방법을 모색하는것을 좋아합니다.
+  또한 찾는것이 다가 아니라, 이해하고 응용하여 팀원 및 회사 분들에게 좋은 방향을 제시하는 개발자가 되도록 노력하고 있습니다.
 
 content:
   - title: Tech # Title for the section
@@ -67,11 +75,10 @@ content:
       <div id="left" style="flex:1;"><h4>Language</h4></div>
       <div id="description" style="display:flex; flex-direciton:row; flex:2; justify-content:left;" >
       <ul>
-      <li><mark>Typescript</mark>, <mark>Golang</mark>, Java, Ruby</li>
-      <li><mark>Node(Express)</mark>, Nest, <mark>Gin</mark>, Ruby on Rails</li>
+      <li><mark>Typescript</mark>, <mark>Golang</mark>, Java</li>
+      <li><mark>Node(Express)</mark>, Nest, <mark>Fiber</mark></li>
       <li>RabbitMQ, Redis Pub/sub</li>
-      <li>Flutter, React, React-Native</li>
-      <li>Visula Studio Code, Visual Studio</li>
+      <li>React, React-Native</li>
       </ul>
       </div>
       </div>
@@ -81,8 +88,8 @@ content:
       <ul>
       <li><mark>MYSQL</mark>, RealTime Database, Redis, <mark>BigQuery</mark></li>
       <li>GCP, <mark>Cloud Function</mark>, GCP Pub/Sub</li>
-      <li>AWS, EC2, DynamoDB,Aurora DB,Lambda, ECS, EKS</li>
-      <li>Docker, Jenkins, Github Action</li>
+      <li>AWS, EC2, DynamoDB,Aurora DB,Lambda, ECS</li>
+      <li>Docker, Terraform, Packer, Jenkins, Github Action</li>
       </ul>
       </div>
       </div>
@@ -97,8 +104,7 @@ content:
         quote: >
           글로벌 서비스의 유입을 증대시키기 위한 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - Node + Express + Cloud Function 개발
-          - Rwg Internal 통신을 위한 tRPC 구조 형태로 개발
+          - Node + Express + Cloud Function
           - VM + Docker를 활용한 Rwg Feed 자동 업데이트
       - layout: left
         border:
@@ -108,7 +114,7 @@ content:
         quote: >
           결제 모듈 변경
         description: | # this will include new lines to allow paragraphs
-          - 결제 관련 DB 설계 (RealTime Database)
+          - Cloud Function, RTDB, Scheduler
           - 이용권 결제, 카드 등록, 결제 수정, 결제 취소, 결제 조회 기능 개발
           - 구독형 시스템으로 인한 재결제 기능 개발
       - layout: left
@@ -119,31 +125,18 @@ content:
         quote: >
           뷰티업종 특성 상, 재방문과 같은 알림서비스 개발
         description: | # this will include new lines to allow paragraphs
-          - Cloud Function + Trigger + Scheduler를 활용한 설계 및 개발
-          - GCP Pubsub을 활용한 대규모 발송 처리
-      - layout: left
-        border:
-          weak # Value of `weak` will display a weak border below this item. # Any
-          # other value (or no value) means no border will be displayed
-        title: Data Pipeline 구축 및 EventLog 데이터 수집
-        quote: >
-          파이프라인 구축과 데이터 로깅 구축
-        description: | # this will include new lines to allow paragraphs
-          - GCP DataFlow + Pubsub을 활용한 실시간 데이터 수집 방식으로 리팩토링
-          - 이벤트 로그 스키마 설계 및 데이터 적재
+          - Cloud Function, DB Trigger, Scheduler, Cloud Pubsub
+          - Cloud Pubsub 활용하여 대규모 발송을 안정적으로 처리할 수 있도록 메시징 시스템 개발
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
         title: 예약금 프로젝트
         quote: >
-          회사 내부 프로젝트
+          회사 내부 프로젝트 (NoShow 방지)
         description: | # this will include new lines to allow paragraphs
-          - 프로젝트 모델 설계 및 API 설계 진행
-          - Cloud Function 기반의 Serverless 구조 형태로 개발 (Typescript)
-          - Scheduler, DB Trigger를 활용하여 개발
-          - Cloud Pubsub을 활용하여 대규모 발송 및 메시징 시스템 개발
-          - TDD 도입으로 인한 Test Case 작성
+          - Cloud Function, Cloud Task, RTDB, Typescipt, Node
+          - Jest를 활용한 Test Case 작성
       - layout: left
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
@@ -152,17 +145,37 @@ content:
         quote: >
           회사 운영 및 마케팅 흐름 파악을 위한 KPI 추출
         description: | # this will include new lines to allow paragraphs
-          - RTDB, Cloud Storage, BigQuery를 활용한 Stream Parsing 방식 활용
+          - GCP BigQuery, SQL, Node-Cli, Typescript, SpreadSheet API
           - Sales Funnel, 월별 & 주별 구매자 목록, 마케팅 그룹별 활성 지표 등의 KPI 추출
-          - Node Cli + Sheet API를 활용한 Sheet 자동화
-          - VM + Github Action + Bash Script + Docker를 활용하여 CI/CD 구성
+          - VM + Github Action + Bash Script + Docker를 데이터 추출 자동화
+  - title: Side Project
+    layout: list
+    content:
+      - layout: right
+        title: Huelgo-monad
+        sub_title: TS를 활용한 함수형 라이브러리
+        link: https://www.npmjs.com/package/huelgo-monad
+        quote: >
+          동기, 비동기 형태의 함수형 라이브러리
+        description: | # this will include new lines to allow paragraphs
+          - Go, asyncGo, mixedGo 등을 활용한 함수형 코드 작성
+          - Try, Option을 포함한 함수형 Response 관리
+          - 2023.4.17일 기준 600명 다운로드 (npm)
+      - layout: right
+        title: 개수작
+        sub_title: Backend Developer
+        quote: >
+          공부 및 스케쥴 관리 App
+        description: | # this will include new lines to allow paragraphs
+          - 공부 시간 체크 및 스케쥴관리, 통계 제공 APP
+          - <a href="https://github.com/zkfmapf123/portfolio/tree/master/study"> 개수작 Github </a>
   - title: Experience
     layout: list
     content:
       - layout: right
         title: Colavo Ground
         sub_title: Backend Developer
-        caption: 2021.11 ~ current...
+        caption: 2021.11 ~ 2023.04
         link: https://www.colavo.kr/
         quote: >
           작은 뷰티샵을 위한 모바일CRM
@@ -195,14 +208,14 @@ plugins:
 
 exclude:
   [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-    "lib/",
-    "scripts/",
-    "docker-compose.yml",
+    'Gemfile',
+    'Gemfile.lock',
+    'node_modules',
+    'vendor/bundle/',
+    'vendor/cache/',
+    'vendor/gems/',
+    'vendor/ruby/',
+    'lib/',
+    'scripts/',
+    'docker-compose.yml',
   ]
